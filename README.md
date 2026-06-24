@@ -1,10 +1,10 @@
-# 🔐 Sistema Integral de Seguridad Residencial
+#  Sistema Integral de Seguridad Residencial
 
 **Autor: Hugo Herrera**
 
 ---
 
-## 📌 Descripción
+##  Descripción
 
 Sistema automatizado de seguridad para hogares y edificios. Detecta intrusos mediante sensores de movimiento, controla una puerta automática, activa alarma sonora y visual, y captura imágenes con cámara al detectar movimiento. Incluye lógica horaria de seguridad nocturna.
 
@@ -12,20 +12,20 @@ Desarrollado originalmente en **Cisco Packet Tracer** (simulación IoT). Compati
 
 ---
 
-## ✨ Características
+## Características
 
 | Módulo | Descripción |
 |---|---|
-| 🔍 **Detección de intrusos** | Sensores de movimiento en pines 0, 4 y 5 con respuesta en tiempo real |
-| 🚪 **Control de puerta** | Cierre automático al detectar intruso, apertura programada a las 05:00 |
-| 📸 **Cámara** | Se activa ante cada detección, guarda `camera_image<N>.png` |
-| 🔔 **Alarma** | Buzzer sonoro + LED rojo, desactivación automática tras `MOTION_TIMEOUT` segundos |
-| 🌙 **Modo nocturno** | Alarma activa automáticamente entre 01:00 y 05:00 hrs |
-| 💻 **Multi-entorno** | Corre en Packet Tracer, Raspberry Pi o cualquier PC en modo simulación |
+|  **Detección de intrusos** | Sensores de movimiento en pines 0, 4 y 5 con respuesta en tiempo real |
+|  **Control de puerta** | Cierre automático al detectar intruso, apertura programada a las 05:00 |
+|  **Cámara** | Se activa ante cada detección, guarda `camera_image<N>.png` |
+|  **Alarma** | Buzzer sonoro + LED rojo, desactivación automática tras `MOTION_TIMEOUT` segundos |
+|  **Modo nocturno** | Alarma activa automáticamente entre 01:00 y 05:00 hrs |
+|  **Multi-entorno** | Corre en Packet Tracer, Raspberry Pi o cualquier PC en modo simulación |
 
 ---
 
-## 🧠 Diagrama de Flujo
+##  Diagrama de Flujo
 
 ```
 INICIO
@@ -54,7 +54,7 @@ EVENTO SENSOR
 
 ---
 
-## 🛠️ Hardware (Raspberry Pi)
+##  Hardware (Raspberry Pi)
 
 | Componente | Pin GPIO |
 |---|---|
@@ -86,7 +86,7 @@ python security_system.py
 
 ---
 
-## 🔄 Compatibilidad de Entornos
+##  Compatibilidad de Entornos
 
 El script detecta automáticamente el entorno y se adapta:
 
@@ -98,7 +98,7 @@ PC / Mac / Linux     →  modo simulación (stub de GPIO por consola)
 
 ---
 
-## 📁 Estructura
+##  Estructura
 
 ```
 sistema-seguridad-residencial/
